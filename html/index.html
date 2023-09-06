@@ -1,0 +1,188 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css -->
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- Table  -->
+  <link rel="stylesheet" media="(max-width:768px)" href="../css/table.css">
+  <!-- Mobile -->
+  <link rel="stylesheet" media="(max-width:500px)" href="../css/mobile.css">
+</head>
+
+<body>
+  <header class="bg-dark-blue">
+    <div class="container">
+      <nav id="navbar">
+        <h1 class="heading-small">Aydın Hüseynov</h1>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <img src="../images/images.jpeg" alt="boss" width="400px" height="300px">
+    <div class="name text-center">
+      <h2 class="heading-big">Frank raykat boss</h2>
+      <p>Computer Engineer | Software Front-end Developer</p>
+    </div>
+    <a href="#courses" class="btn btn-primary">Go to Courses</a>
+  </section>
+
+  <section id="training" class="bg-dark-blue">
+    <h3 class="text-center heading-medium">Training</h3>
+    <div class="items">
+      <article class="item">
+        <i class="fa fa-pencil-alt"></i>
+        <h3>Main Trainig</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ea,
+          sit illo culpa inventore suscipit?
+        </p>
+      </article>
+      <article class="item">
+        <i class="fa fa-pencil-alt"></i>
+        <h3>Extra Training</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ea,
+          sit illo culpa inventore suscipit?
+        </p>
+      </article>
+      <article class="item">
+        <i class="fa fa-pencil-alt"></i>
+        <h3>Last Training</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ea,
+          sit illo culpa inventore suscipit?
+        </p>
+      </article>
+    </div>
+
+  </section>
+
+  <section id="courses">
+    <h3 class="text-center heading-medium">Courses</h3>
+    <div class="container">
+      <div class="courses">
+
+        <!-- course 1 -->
+        <div class="course">
+          <div class="course-image">
+            <img src="../python.jpg" alt="python">
+            <span>%90 Off</span>
+          </div>
+          <div class="info">
+            <div class="course-info">
+              (40+ Hours) Python | Zero to advanced Programming 2023
+            </div>
+            <div class="description">
+              (40+ Hours) Python | Zero to advanced Programming 2023
+            </div>
+            <div class="instructor">
+              Tomas Muller,software developer
+            </div>
+            <div class="rating">
+              4.6 | (19990 rate)
+            </div>
+          </div>
+        </div>
+
+        <!-- course 2 -->
+        <div class="course">
+          <div class="course-image">
+            <img src="../java.jpg" alt="Java">
+            <span>%90 Off</span>
+          </div>
+          <div class="info">
+            <div class="course-info">
+              Complete Java developer course
+            </div>
+            <div class="description">
+              Complete Java Developer Course | Learn Java From Zero
+            </div>
+            <div class="instructor">
+              Arda Turan,Software developer
+            </div>
+            <div class="rating">
+              4.6 | (7000 rate)
+            </div>
+          </div>
+        </div>
+
+        <!-- course 3-->
+        <div class="course">
+          <div class="course-image">
+            <img src="../javascript.jpg" alt="JavaScript">
+            <span>%90 Off</span>
+          </div>
+          <div class="info">
+            <div class="course-info">
+              Complete Modern JavaScript Course
+            </div>
+            <div class="description">
+              Complete Modern JavaScript Course - ES6+
+            </div>
+            <div class="instructor">
+              Arsen Wenger,Sofware developer
+            </div>
+            <div class="rating">
+              4.7 | (2000 rate)
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-dark-blue">
+    <div class="contact-form">
+      <form>
+        <h4 class="text-center heading-medium"> Contact With Me</h4>
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" name="name" id="name" placeholder="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" class="form-control" rows="5" placeholder="Enter your message..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-block">Send</button>
+      </form>
+
+      <ul>
+        <li><a class="fab fa-facebook"></a></li>
+        <li><a class="fab fa-twitter"></a></li>
+        <li><a class="fab fa-instagram"></a></li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
